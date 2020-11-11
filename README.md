@@ -8,6 +8,12 @@ A basic authentication API using JWTs written in Go!
 - SHA-256 hashed and salted passwords
 - Mux middleware for protecting secure endpoints
 
+# To run
+
+- Ensure you have running instances of Redis and Mongodb
+- Update the host variables (defaults to localhost)
+- `go run main.go`
+
 # To do
 
 - Move environmental variable outside of code
