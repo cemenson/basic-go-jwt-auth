@@ -41,3 +41,8 @@ Headers: `Authorization: <JWT>`
 Method: `POST`
 Headers: `Authorization: <JWT>`
 Body: `{"refresh_token": "<REFRESH_TOKEN>"}`
+
+## Reasons for this project
+
+1) To teach myself Go
+2) To serve as a basic template for future projects needing an authentication service
