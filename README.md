@@ -11,3 +11,27 @@ A basic authentication API using JWTs written in Go!
 # To do
 
 - Move environmental variable outside of code
+
+
+# API
+
+### /login
+Method: `POST`
+Body: `{"id":"<USERNAME>","password":"<PASSWORD>"}`
+
+### /logout
+Method: `POST`
+Headers: `Authorization: <JWT>`
+
+### /register
+Method: `POST`
+Body: `{"email": "<EMAIL>", "password": "<PASSWORD>"}`
+
+### /account
+Method: `GET`
+Headers: `Authorization: <JWT>`
+
+### /token/refresh
+Method: `POST`
+Headers: `Authorization: <JWT>`
+Body: `{"refresh_token": "<REFRESH_TOKEN>"}`
