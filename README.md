@@ -23,7 +23,7 @@ A basic authentication API using JWTs written in Go!
 
 ### /login
 - Method: `POST`
-- Body: `{"id":"<USERNAME>","password":"<PASSWORD>"}`
+- Body: `{"id": "<USERNAME>", "password": "<PASSWORD>"}`
 
 ### /logout
 - Method: `POST`
