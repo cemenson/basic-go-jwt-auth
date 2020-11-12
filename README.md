@@ -22,25 +22,25 @@ A basic authentication API using JWTs written in Go!
 # API
 
 ### /login
-Method: `POST`
-Body: `{"id":"<USERNAME>","password":"<PASSWORD>"}`
+- Method: `POST`
+- Body: `{"id":"<USERNAME>","password":"<PASSWORD>"}`
 
 ### /logout
-Method: `POST`
-Headers: `Authorization: <JWT>`
+- Method: `POST`
+- Headers: `Authorization: <JWT>`
 
 ### /register
-Method: `POST`
-Body: `{"email": "<EMAIL>", "password": "<PASSWORD>"}`
+- Method: `POST`
+- Body: `{"email": "<EMAIL>", "password": "<PASSWORD>"}`
 
 ### /account
-Method: `GET`
-Headers: `Authorization: <JWT>`
+- Method: `GET`
+- Headers: `Authorization: <JWT>`
 
 ### /token/refresh
-Method: `POST`
-Headers: `Authorization: <JWT>`
-Body: `{"refresh_token": "<REFRESH_TOKEN>"}`
+- Method: `POST`
+- Headers: `Authorization: <JWT>`
+- Body: `{"refresh_token": "<REFRESH_TOKEN>"}`
 
 ## Reasons for this project
 
